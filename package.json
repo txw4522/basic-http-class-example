@@ -1,0 +1,30 @@
+{
+  "name": "basic-http-class-example",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.13.0",
+    "npm": "7.5.2"
+  },
+  "description": "A basic HTTP server example",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Test complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/txw4522/basic-http-class-example.git"
+  },
+  "author": "Tony Weng",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/txw4522/basic-http-class-example/issues"
+  },
+  "homepage": "https://github.com/txw4522/basic-http-class-example#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
